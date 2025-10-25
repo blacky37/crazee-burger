@@ -1,11 +1,13 @@
-import React from "react";
+import { Link } from "react-router";
 
 export default function OrderPage() {
   return (
     <div>
       <h1>Bonjour Bob</h1>
       <br />
-      <button>Deconnexion</button>
+      <Link to="/">
+        <button>Deconnexion</button>
+      </Link>
     </div>
   );
 }
